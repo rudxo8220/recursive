@@ -7,7 +7,7 @@ d = 1
 def square(size, w, h, space, d): #(갯수,)
     if size == 0: #사각형 초기화
         return 0
-    for n in range(1, size + 1): #0~5가 아닌 1~7
+    for n in range(1, size + 1):
         h = h + d
         space += 1
         matrix[w][h] = space
